@@ -18,7 +18,7 @@ Readonly::Array our @EXPORT_OK => qw(first_male first_female middle_female
 our $VERSION = '0.01';
 
 # First and middle male names.
-my @first_male = my @middle_male = qw(
+our @first_male = our @middle_male = qw(
 Adam
 Adrian
 Alex
@@ -122,7 +122,7 @@ Yannik
 );
 
 # First nad middle female names.
-my @first_female = my @middle_female = qw(
+our @first_female = our @middle_female = qw(
 Alexandra
 Amelie
 Andrea
@@ -226,7 +226,7 @@ Verena
 );
 
 # Last names.
-my @last_male = my @last_female = qw(
+our @last_male = our @last_female = qw(
 Müller
 Schmidt
 Schneider
