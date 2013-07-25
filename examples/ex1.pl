@@ -12,4 +12,4 @@ use Mock::Person::DE qw(name);
 print encode_utf8(name())."\n";
 
 # Output like.
-# Baumann Cedric Nick
+# Cedric Nick Baumann
