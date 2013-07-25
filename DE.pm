@@ -448,13 +448,14 @@ Default value of $sex variable is 'male'.
  use warnings;
 
  # Modules.
+ use Encode qw(encode_utf8);
  use Mock::Person::DE qw(name);
 
  # Error.
- print name()."\n";
+ print encode_utf8(name())."\n";
 
- # Output.
- # TODO
+ # Output like.
+ # Baumann Cedric Nick
 
 =head1 DEPENDENCIES
 
