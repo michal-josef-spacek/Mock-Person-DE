@@ -52,7 +52,6 @@ Henry
 Hermann
 Ingo
 Jan
-Jan-Willem
 Jasper
 Jean
 Joe
@@ -118,6 +117,7 @@ Victor
 Vincent
 Vinz
 Virgil
+Willem
 Yannik
 );
 
