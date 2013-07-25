@@ -1,0 +1,55 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 53ab0997c374c0a4cb73ea60af7abe3382e393b9 Changes
+SHA1 d8cc401a6373042a592a9f495907e2849a176e1f DE.pm
+SHA1 1fad52740563da33cea5c5c7a60aeeff88528bf5 LICENSE
+SHA1 decce5e019a70dfa6f117ce72b8527d3c5660d32 MANIFEST
+SHA1 474dcd52ff5f0048ca8db736d8bd4d758f760094 META.yml
+SHA1 2563d91db7220a757df9f0c60f0a55bf5ac6b27b Makefile.PL
+SHA1 65ebba5d4314e5e3127b3d240b6590fccdf41a5e README
+SHA1 959ea252cd9f549db58f32f6c80ae0c0b65d33c6 examples/ex1.pl
+SHA1 58f709a4faf7ebc7b10c00cbe5a0493e4332b7d2 examples/ex2.pl
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 eb68c63cadeaefb46492209ba22b0148dfed41d8 t/Mock-Person-DE/00-use.t
+SHA1 b26c72857ec23076a388cf5fc1c6a7133cb3e217 t/Mock-Person-DE/01-version.t
+SHA1 b54ee1ce8e21dd9bf4daf2d45096a672c95adcff t/Mock-Person-DE/02-pod_coverage.t
+SHA1 0b1dcd3e92c134f6a3ae46e01dc97bbf7656f2fc t/Mock-Person-DE/03-pod.t
+SHA1 e3dc14f4acd426686bfdf8f6bf3c85c40f695505 t/Mock-Person-DE/04-first_male.t
+SHA1 227da7fd5e4d26323ebccb50c99a676d5e7b35d8 t/Mock-Person-DE/05-first_female.t
+SHA1 78152050da082bb36d2d9aa63684a056e7a9842a t/Mock-Person-DE/06-last_male.t
+SHA1 db542d643fc9d01e1711c6c4e5a5821f2c8dbea6 t/Mock-Person-DE/07-last_female.t
+SHA1 992d5efaefed5fef77e84a445d98e4219fd4ed1c t/Mock-Person-DE/08-middle_male.t
+SHA1 106e3a1ce1c78c96a8344b8092f37ededbf10550 t/Mock-Person-DE/09-middle_female.t
+SHA1 95f2de9eb88cc2c4fed5ce5a41242f30b1b26eb9 t/Mock-Person-DE/10-name.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJR8U/dAAoJEAwa+cf4dLBakt8IAIySVKljwX4QeI7NTXndTD2y
+s+xXj8cChNn508bfRjkxaqm4S7fGeV0HJxc6gLKjFvjoJuS4Dk6cLoMu9l978WkJ
+xg8/hBqzib9GmhArRX5DTptOIBPCqFrZsLlh7LCSrkxFnDUAn6aNarPD/RBDEBmQ
+NwWg37niEAayyk6BB6DSCE+EnVYyCdvTmLNeaEb8KfQsmfdEKkMNHwpN5k4XSPim
+8ZS9S73zs0YK62q7yo8qRTcgK3lzALbRH1riLEgYMeH0ftMnCyuUUJOdepwucFiK
+oLQokBgM0nRN1hjztpWdP8GWROCgJXmJUjla9iPFesml5YrjWzCRIuhRKnfuF3I=
+=6nLR
+-----END PGP SIGNATURE-----
