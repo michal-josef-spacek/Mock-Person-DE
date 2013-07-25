@@ -363,9 +363,9 @@ sub middle_female {
 sub name {
 	my $sex = shift;
 	if (defined $sex && $sex eq 'female') {
-		return last_female().$SPACE.first_female().$SPACE.middle_female();
+		return first_female().$SPACE.middle_female().$SPACE.last_female();
 	} else {
-		return last_male().$SPACE.first_male().$SPACE.middle_male();
+		return first_male().$SPACE.middle_male().$SPACE.last_male();
 	}
 }
 
@@ -455,7 +455,7 @@ Default value of $sex variable is 'male'.
  print encode_utf8(name())."\n";
 
  # Output like.
- # Baumann Cedric Nick
+ # Cedric Nick Baumann
 
 =head1 DEPENDENCIES
 
