@@ -11,8 +11,8 @@ use Readonly;
 
 # Constants.
 Readonly::Scalar our $SPACE => q{ };
-Readonly::Array our @EXPORT_OK => qw(name first_name first_female middle_male
-	middle_female last_male last_female);
+Readonly::Array our @EXPORT_OK => qw(first_male first_female middle_female
+	last_male last_female middle_male middle_female name);
 
 # Version.
 our $VERSION = '0.03';
