@@ -381,7 +381,6 @@ __END__
 
 Mock::Person::DE - Generate random sets of German names.
 
-=cut
 
 =head1 DESCRIPTION
 
