@@ -362,7 +362,7 @@ sub middle_female {
 # Get random name.
 sub name {
 	my $sex = shift;
-	if ($sex eq 'female') {
+	if (defined $sex && $sex eq 'female') {
 		return last_female().$SPACE.first_female().$SPACE.middle_female();
 	} else {
 		return last_male().$SPACE.first_male().$SPACE.middle_male();
@@ -433,10 +433,11 @@ Returns random middle name of male person.
 
 Returns random middle name of female person.
 
-=item B<name($sex)>
+=item B<name([$sex])>
 
 Recieves scalar with sex of the person ('male' or 'female') and returns
 scalar with generated name.
+Default value of $sex variable is 'male'.
 
 =back
 
