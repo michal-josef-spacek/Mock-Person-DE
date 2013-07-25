@@ -18,6 +18,7 @@ resources 'homepage' => 'https://github.com/tupinek/Mock-Person-DE';
 resources 'repository' => 'git://github.com/tupinek/Mock-Person-DE';
 test_requires 'English' => 0;
 test_requires 'File::Object' => 0.05;
+test_requires 'List::MoreUtils' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 test_requires 'Test::Pod' => 0;
