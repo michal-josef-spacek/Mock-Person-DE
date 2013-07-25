@@ -413,8 +413,6 @@ L<indiachildnames.com|http://www.indiachildnames.com/top100/germannames.html>
 
 =back
 
-=cut
-
 =head1 SUBROUTINES
 
 =over 8
