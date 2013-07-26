@@ -591,6 +591,7 @@ L<Readonly>.
 =head1 SEE ALSO
 
 L<Mock::Person>,
+L<Mock::Person::CZ>,
 L<Mock::Person::SV>,
 L<Mock::Person::RU>.
 
