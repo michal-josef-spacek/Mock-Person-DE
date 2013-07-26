@@ -419,11 +419,11 @@ L<indiachildnames.com|http://www.indiachildnames.com/top100/germannames.html>
 
 =item B<first_male()>
 
-Returns random fists name of male person.
+Returns random first name of male person.
 
 =item B<first_female()>
 
-Returns random fists name of female person.
+Returns random first name of female person.
 
 =item B<last_male()>
 
