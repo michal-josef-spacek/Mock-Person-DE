@@ -592,6 +592,7 @@ L<Readonly>.
 
 L<Mock::Person>,
 L<Mock::Person::CZ>,
+L<Mock::Person::SK>,
 L<Mock::Person::SV>,
 L<Mock::Person::RU>.
 
