@@ -2,6 +2,7 @@
 - Add link to Mock::Person::CZ in doc.
 - Add link to Mock::Person::SK in doc.
 - Fix doc spelling.
+- Fix situation, when generate first and middle name same.
 
 0.01 (July 25, 2013)
 - First version.

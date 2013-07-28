@@ -363,9 +363,19 @@ sub middle_female {
 sub name {
 	my $sex = shift;
 	if (defined $sex && $sex eq 'female') {
-		return first_female().$SPACE.middle_female().$SPACE.last_female();
+		my $first_female = first_female();
+		my $middle_female = middle_female();
+		while ($first_female eq $middle_female) {
+			$middle_female = middle_female();
+		}
+		return $first_female.$SPACE.$middle_female.$SPACE.last_female();
 	} else {
-		return first_male().$SPACE.middle_male().$SPACE.last_male();
+		my $first_male = first_male();
+		my $middle_male = middle_male();
+		while ($first_male eq $middle_male) {
+			$middle_male = middle_male();
+		}
+		return $first_male.$SPACE.$middle_male.$SPACE.last_male();
 	}
 }
 
