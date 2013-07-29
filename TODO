@@ -2,7 +2,8 @@ TODO
 ====
 2. Test na spravne slozeni jmena, kde je stredni jmeno a je jine nez prvni.
 3. Kdyz neni definovany sex v name(), tak vratit nahodne jmeno (zena / muz).
-4.
+4. Zmenit $TYPE na 'two' jako default.
+5.
 
 Applied
 =======
