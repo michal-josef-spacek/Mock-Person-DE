@@ -362,6 +362,22 @@ sub middle_female {
 # Get random name.
 sub name {
 	my $sex = shift;
+	return _name_three($sex);
+}
+
+# Get random name with first and last name.
+sub _name_two {
+	my $sex = shift;
+	if (defined $sex && $sex eq 'female') {
+		return first_female().$SPACE.last_female();
+	} else {
+		return first_name().$SPACE.last_male();
+	}
+}
+
+# Get random name with first, middle and last name.
+sub _name_three {
+	my $sex = shift;
 	if (defined $sex && $sex eq 'female') {
 		my $first_female = first_female();
 		my $middle_female = middle_female();
