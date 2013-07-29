@@ -1,7 +1,5 @@
 TODO
 ====
-2. Test na spravne slozeni jmena, kde je stredni jmeno a je jine nez prvni.
-3. Kdyz neni definovany sex v name(), tak vratit nahodne jmeno (zena / muz).
 4. Zmenit $TYPE na 'two' jako default.
 5.
 
@@ -10,3 +8,9 @@ Applied
 1. Jak psat to cele jmeno. Ted je prijmeni, prvni a druhe jmeno. Coz se mi moc
    nezda.
 OK [20130725] skim
+
+3. Kdyz neni definovany sex v name(), tak vratit nahodne jmeno (zena / muz).
+OK [20130729] skim
+
+2. Test na spravne slozeni jmena, kde je stredni jmeno a je jine nez prvni.
+OK [20130729] skim
