@@ -48,7 +48,19 @@ SUBROUTINES
     name([$sex])
             Recieves scalar with sex of the person ('male' or 'female') and
             returns scalar with generated name. Default value of $sex
-            variable is 'male'.
+            variable is undef, that means random name.
+
+    name_male()
+            Returns random male name.
+
+    name_female()
+            Returns random female name.
+
+VARIABLES
+    TYPE
+             Name type.
+             Possible values are: 'two', 'three'.
+             Default value is 'three'.
 
 EXAMPLE1
      # Pragmas.
@@ -183,11 +195,11 @@ EXAMPLE2
      # Zimmermann
 
 DEPENDENCIES
-    Exporter, Readonly.
+    Exporter, List::MoreUtils, Readonly.
 
 SEE ALSO
-    Mock::Person, Mock::Person::CZ, Mock::Person::SK, Mock::Person::SV,
-    Mock::Person::RU.
+    Mock::Person, Mock::Person::CZ, Mock::Person::EN, Mock::Person::SK,
+    Mock::Person::SK::ROM, Mock::Person::SV, Mock::Person::RU.
 
 REPOSITORY
     <https://github.com/tupinek/Mock-Person-DE>
