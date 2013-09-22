@@ -14,13 +14,13 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 020c2734a3d7823734a5e1ba2b9327a4204d4e83 Changes
-SHA1 bc4408463e2966fe14ec5dbd6227f8fb86836f75 DE.pm
+SHA1 7e3fbec2a35a7fa1aeb94e6df803a1345f101e0a Changes
+SHA1 10925ea36fe33bf7fb8616ec1b4790d679e35e92 DE.pm
 SHA1 2039384c67092a5dcb07a7ac68cec34f42eadf9a LICENSE
 SHA1 decce5e019a70dfa6f117ce72b8527d3c5660d32 MANIFEST
-SHA1 0282f6f4dada6334e43f6167c6e06721d5fa58ee META.yml
-SHA1 7bdb7c12af9cf4f99826a9c89628ed324bb8b249 Makefile.PL
-SHA1 00e6ba53eddef70f6abe14d527e9ed2c0b99639f README
+SHA1 8e2e6ee858932875a16f04a6e16c4ffdb2f99d9d META.yml
+SHA1 354e6795ac6443fa95c17b71bacd7998e24f7be7 Makefile.PL
+SHA1 84189da1d1780d16dfff862123b8129ddab2d5e2 README
 SHA1 959ea252cd9f549db58f32f6c80ae0c0b65d33c6 examples/ex1.pl
 SHA1 58f709a4faf7ebc7b10c00cbe5a0493e4332b7d2 examples/ex2.pl
 SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
@@ -32,7 +32,7 @@ SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
 SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
 SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
 SHA1 eb68c63cadeaefb46492209ba22b0148dfed41d8 t/Mock-Person-DE/00-use.t
-SHA1 73c897db6027d87a9da026f3cbf929ba75628a31 t/Mock-Person-DE/01-version.t
+SHA1 fdb98bbbcb7a33de1666dfa6d76deae479950891 t/Mock-Person-DE/01-version.t
 SHA1 b54ee1ce8e21dd9bf4daf2d45096a672c95adcff t/Mock-Person-DE/02-pod_coverage.t
 SHA1 0b1dcd3e92c134f6a3ae46e01dc97bbf7656f2fc t/Mock-Person-DE/03-pod.t
 SHA1 e3dc14f4acd426686bfdf8f6bf3c85c40f695505 t/Mock-Person-DE/04-first_male.t
@@ -41,15 +41,15 @@ SHA1 78152050da082bb36d2d9aa63684a056e7a9842a t/Mock-Person-DE/06-last_male.t
 SHA1 db542d643fc9d01e1711c6c4e5a5821f2c8dbea6 t/Mock-Person-DE/07-last_female.t
 SHA1 992d5efaefed5fef77e84a445d98e4219fd4ed1c t/Mock-Person-DE/08-middle_male.t
 SHA1 106e3a1ce1c78c96a8344b8092f37ededbf10550 t/Mock-Person-DE/09-middle_female.t
-SHA1 95f2de9eb88cc2c4fed5ce5a41242f30b1b26eb9 t/Mock-Person-DE/10-name.t
+SHA1 7c5bf76aa3556e117a9974494101eef21428a993 t/Mock-Person-DE/10-name.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJSPcsTAAoJEAwa+cf4dLBa9roH/1U0x9A3HX25uXaAIKYsafsM
-cjA/yrp4Ya2ROU2kf/U6Op21eRDLe8cd5mtaEUu8hlApT0ol7BfBuQai+L4hVbAX
-ATpBXebZaj3f4mPUUYCJ308BX0CFK8L7b33oo9doTvVkis64RH/tTUOD/ZPn5670
-Wb0KMCOwxpkaXcSjZWMV+dGvH5e4U0wLkDGj9qHzEm0sEvTCAzEw90hEF5mHwApb
-mWMFWkcNMjEI0QdgdPfwG1YsRS5uPIdIWmsWndFi41YQGmhhdsY+bW0mYqyomWKm
-0dtUfZ/LVgqLb8vjcAn6ZSz2I+Vo4/R8b8HjD+Q3TEA9Xu4VdmNmbLBPtq7/flk=
-=1dZp
+iQEcBAEBAgAGBQJSPrqhAAoJEAwa+cf4dLBarH0IAMqDdXfK6DtOzDtRDS1Qogbc
+IPqxkeJPM93L1avKAlrpZPzzaW4IIz8rxiTr0x4yag0QkR9wFVOZa8C0CfU+MI2u
+0crNZDemfIVL6zwi3GUhOT9CqE1msuCBUV8jEWzaP/Fpgrl3+M6jmLNbXfCVCYnF
+c31OiPJOaKOxlGRzNbX0ZG0vja/VeLuEEeBHi/Ffe3DK14zyeViKVPBR96xcypBy
+DX9nNDVyhcYMWGUz8dQKuIn9Hit8l1zNOCXWbmQOphuvnNbWyjhNGKpoNHMemTNJ
+FF4ebX2UebsLvW9bp7yYvfU+bUD4HH3bkLi4mC3sMZ6hOgYLms0p+2yednr+1tI=
+=+5e8
 -----END PGP SIGNATURE-----
