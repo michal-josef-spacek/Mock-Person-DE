@@ -1,4 +1,5 @@
 0.03
+ - Fix bug in tests with name() subroutine.
 
 0.02 2013-09-21
  - Add link to Mock::Person::CZ in doc.

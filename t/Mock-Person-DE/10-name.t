@@ -9,7 +9,7 @@ use Test::More 'tests' => 13;
 use Test::NoWarnings;
 
 # Test.
-my $ret1 = name();
+my $ret1 = name('male');
 like($ret1, qr{^\w+\ \w+\ \w+$}, 'Default name must be three words.');
 
 # Test.
