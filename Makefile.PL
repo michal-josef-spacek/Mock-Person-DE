@@ -10,6 +10,7 @@ abstract 'Generate random sets of German names.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Mock-Person-DE';
+readme_from 'DE.pm';
 requires 'Exporter' => 0;
 requires 'List::MoreUtils' => 0;
 requires 'Readonly' => 0;
