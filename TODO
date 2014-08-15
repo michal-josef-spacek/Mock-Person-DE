@@ -1,7 +1,6 @@
 TODO
 ====
 4. Zmenit $TYPE na 'two' jako default.
-5. Resit minimalni verzi perlu.
 6.
 
 Applied
@@ -15,3 +14,6 @@ OK [20130729] skim
 
 2. Test na spravne slozeni jmena, kde je stredni jmeno a je jine nez prvni.
 OK [20130729] skim
+
+5. Resit minimalni verzi perlu.
+OK [20140815] skim
