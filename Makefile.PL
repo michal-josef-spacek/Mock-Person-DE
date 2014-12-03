@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Generate random sets of German names.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Mock-Person-DE';
 readme_from 'DE.pm';
