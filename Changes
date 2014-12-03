@@ -1,5 +1,6 @@
 0.05
  - Fix LICENSE file.
+ - Fix comment (thanks Mohammad S Anwar).
  - Update Module::Install to 1.14 version.
 
 0.04 2014-08-15T10:22:34+02:00
