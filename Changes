@@ -1,4 +1,4 @@
-0.05
+0.05 2015-09-22T14:11:18+02:00
  - Fix LICENSE file.
  - Fix comment (thanks Mohammad S Anwar).
  - Move author tests to xt/ directory.
