@@ -63,11 +63,9 @@ VARIABLES
              Default value is 'three'.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Mock::Person::DE qw(name);
 
@@ -78,11 +76,9 @@ EXAMPLE1
      # Cedric Nick Baumann
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Encode qw(encode_utf8);
      use Mock::Person::DE;
 

@@ -1,12 +1,10 @@
 package Mock::Person::DE;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use utf8;
 use warnings;
 
-# Modules.
 use List::MoreUtils qw(none);
 use Readonly;
 
@@ -510,11 +508,9 @@ Returns random female name.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Encode qw(encode_utf8);
  use Mock::Person::DE qw(name);
 
@@ -526,11 +522,9 @@ Returns random female name.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Encode qw(encode_utf8);
  use Mock::Person::DE;
 
