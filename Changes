@@ -1,6 +1,7 @@
 0.06
  - Fix use lib in Makefile.PL.
  - Update Module::Install to 1.19 version.
+ - Update author github username.
  - Update author name.
  - Update copyright years.
 

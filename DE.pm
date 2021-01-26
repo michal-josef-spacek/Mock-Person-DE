@@ -654,7 +654,7 @@ Install the Mock::Person modules.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Mock-Person-DE>
+L<https://github.com/michal-josef-spacek/Mock-Person-DE>
 
 =head1 AUTHOR
 
