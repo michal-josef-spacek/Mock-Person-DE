@@ -1,4 +1,4 @@
-0.06
+0.06 2021-01-26T11:53:11+01:00
  - Fix bugtracker.
  - Fix use lib in Makefile.PL.
  - Improve LICENSE AND COPYRIGHT section in doc.
