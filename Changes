@@ -1,6 +1,7 @@
 0.06
  - Fix use lib in Makefile.PL.
  - Update Module::Install to 1.19 version.
+ - Update author name.
  - Update copyright years.
 
 0.05 2015-09-22T14:11:18+02:00
