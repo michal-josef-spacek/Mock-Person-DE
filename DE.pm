@@ -422,6 +422,7 @@ Mock::Person::DE - Generate random sets of German names.
 
  use Mock::Person::DE qw(first_male first_female last_male last_female
          middle_male middle_female name);
+
  my $first_male = first_male();
  my $first_female = first_female();
  my $last_male = last_male();
